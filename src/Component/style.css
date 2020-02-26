@@ -1,0 +1,31 @@
+.container{
+  width:1200px;
+  margin:0 auto;
+}
+.imagepreview{
+  width:100%;
+}
+.imagepreview img{
+  width:100%
+}
+.green{
+  background:green;
+  left:0;
+}
+.blue{
+  background: blue;
+  left:50px;
+}
+.colorcontainer{
+  position: relative;
+}
+.colorcontainer > div{
+  
+  width:20px;
+  height:20px;
+  position: absolute;
+}
+.canvaswrapper,#imageCanvas{
+  width:800px;
+  height:500px;
+}
